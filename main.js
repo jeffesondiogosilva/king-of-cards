@@ -48,6 +48,7 @@
 // }
 
 const botao = document.querySelector('#btn-fetch');
+const carta = document.querySelector('#content')
 
 botao.addEventListener('click', (e) => {
     const options = {
@@ -56,11 +57,15 @@ botao.addEventListener('click', (e) => {
         cache: 'default'
     }
 
-    fetch(`https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1`, options)
+    fetch(`https://deckofcardsapi.com/api/deck/new/draw/?count=2`, options)
     .then(response => {response.json()
-        .then( data => console.log(data))
+        .then( data => carta.innerHTML = `<img  src="${data.cards[0].image}">` )
+            
     })
-    .catch(err => console.log('Deu erro:'+err.message))
+    .catch(err => console.log('Deu erro:'+err.message));
+
+    ;
+    
 })
 
 
