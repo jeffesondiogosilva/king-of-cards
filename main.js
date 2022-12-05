@@ -1,29 +1,4 @@
-// const selecoes = [
-//     {
-//         nome: 'brasil',
-//         escalacao: [ {id: 0, nome: 'alisson', posicao: 'goleiro'}, 
-//                      {id: 1, nome: 'daniel alves', posicao: 'lateral'},
-//                      {id: 2, nome: 'thiago silva', posicao: 'zagueiro'}
-//                    ]  
-//     }, 
-    
-//     {
-//         nome: 'frança',
-//         escalacao: [ {id: 0, nome: 'lloris', posicao: 'goleiro'}, 
-//                      {id: 1, nome: 'pavart', posicao: 'lateral'},
-//                      {id: 2, nome: 'varane', posicao: 'zagueiro'}
-//                    ]  
-//     },
-    
-// ];
 
-// const options = {
-// 	method: 'GET',
-// 	headers: {
-// 		'X-RapidAPI-Key': 'd031458ad3mshddf104e99843926p150880jsn52a0d2a1cb5c',
-// 		'X-RapidAPI-Host': 'api-football-v1.p.rapidapi.com'
-// 	}
-// };
 
 // fetch('https://api-football-v1.p.rapidapi.com/v3/timezone', options)
 // 	.then(response => response.json())
