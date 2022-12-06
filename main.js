@@ -43,4 +43,15 @@ botao.addEventListener('click', (e) => {
     
 })
 
+const botao_pegar = document.querySelector('#botao_pegar');
+const carta1 = document.querySelector('#carta1');
+const carta2 = document.querySelector('#carta2');
+const carta3 = document.querySelector('#carta3');
+
+
+function pegar_carta (e) {
+    carta1.innerHTML = `<img style="width: 20%" src="${data.cards[0].image}">`;
+}
+
+
 

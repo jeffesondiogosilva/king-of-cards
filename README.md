@@ -1,9 +1,9 @@
-<h1>Cup Coach</h1>
+<h1>King of Cards</h1>
 
 <h2>Funcionalidades</h2>
 
-[x] ESCALAR 3 JOGADORES EM CADA JOGO <br>
-[ ] RANKING DIÁRIO DE PONTUAÇÃO DOS JOGADORES <br>
+[ ] DEFINIR REGRAS <br>
+[ ]  <br>
 [ ] TIMES COMPLETOS DISPONÍVEIS PARA ESCALAR <br>
 [ ] IMAGENS DOS JOGADORES <br>
 [ ] LEGENDA DE PONTUAÇÃO <br>
