@@ -2,12 +2,12 @@
 
 <h2>Funcionalidades</h2>
 
+[ ] SELECIONAR MODALIDADE <br>
 [ ] DEFINIR REGRAS <br>
-[ ]  <br>
-[ ] TIMES COMPLETOS DISPONÍVEIS PARA ESCALAR <br>
-[ ] IMAGENS DOS JOGADORES <br>
-[ ] LEGENDA DE PONTUAÇÃO <br>
-[ ] RANKING DOS COACHS <br>
+[ ] CRIAR ESPAÇO DAS CARTAS DA MÃO <br> 
+[ ] MELHORAR ESTILIZAÇÃO <br>
+[ ] TRABALHAR COM A API <br>
+[ ] CRIAR LOG IN <br>
 
 
 <h2>Descrição</h2>
