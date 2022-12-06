@@ -36,19 +36,7 @@ botao.addEventListener('click', (e) => {
     fetch(`https://deckofcardsapi.com/api/deck/new/draw/?count=2`, options)
     .then(response => {response.json()
         .then( data => carta.innerHTML = `<img  src="${data.cards[0].image}">; `)
-            .then(r => {const botao_pegar = document.querySelector('#btn_pegar');
-            const carta1 = document.querySelector('#carta1');
-            const carta2 = document.querySelector('#carta2');
-            const carta3 = document.querySelector('#carta3');
-        
-        
-            function pegar_carta () {
-            // carta1.innerHTML = `<img style="width: 20%" src="${data.cards[0].image}">`;
-            console.log(x)
-            }
-        
-            botao_pegar.addEventListener('click', pegar_carta());
-            })
+            
             
     })
     .catch(err => console.log('Deu erro:'+err.message));
@@ -57,6 +45,12 @@ botao.addEventListener('click', (e) => {
     
 })
 
+    function pegar_carta(){
+
+        const carta1 = document.querySelector('#carta1');
+        carta1.innerHTML = `<div style="width: 10%">${carta.innerHTML}</div>`;
+        console.log(carta1.innerHTML);
+    }
     
 
 
