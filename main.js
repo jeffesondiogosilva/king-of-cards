@@ -73,7 +73,7 @@ botao.addEventListener('click', (e) => {
 
             const msgm = document.querySelector('#msgm');
             msgm.innerHTML =  '<p id="parabens"> PARABÉNS!!! </p>  <img src="https://img1.picmix.com/output/stamp/normal/5/5/7/8/1098755_1a3d8.gif">'
-            window.location.href = '#parabens';
+            window.location.href = '#msgm';
 
 
         }
