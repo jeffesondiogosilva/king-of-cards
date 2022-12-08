@@ -72,12 +72,12 @@ h1{
     
     from {
         color: white;
-        font-size: 20%;
+        font-size: 1.5rem;
     }
 
     to {
         color: rgb(246, 246, 9);
-        font-size: 30%;
+        font-size: 3rem;
     }
 }
 
