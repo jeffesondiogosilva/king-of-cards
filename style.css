@@ -11,6 +11,7 @@ body {
 
 #emb-header {
     margin-top: 1px;
+    text-align: center;
 }
 
 #wrapper{
@@ -28,6 +29,9 @@ body {
     animation: title 2s infinte;
     background-color: rgb(128, 168, 128);
     animation-delay: 1s;
+    border-radius: 10px;
+    margin-top: 10px;
+    
     
 }
 
@@ -54,19 +58,25 @@ h1{
 }
 
 #btn-fetch {
-    font-size: 15px;
+    font-size: 25px;
     border-radius: 5px;
+    width: 10rem;
 }
 
 #btn-pegar {
-    font-size: 15px;
+    font-size: 25px;
     border-radius: 5px;
+    width: 10rem;
 }
 
 #parabens {
     font-size: 25px;
     animation: parabens 2s infinite;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(41, 165, 68);
+    border-radius: 12px;
+    padding: 0px;
+    margin: 0px;
 }
 
 @keyframes parabens {
