@@ -9,8 +9,39 @@ body {
     font-family: 'Lato', sans-serif; 
 }
 
+#emb-header {
+    margin-top: 1px;
+}
+
+#wrapper{
+    text-align: right;
+}
+
+#music{
+    font-size: 15px;
+    border-radius: 5px;
+}
+
 #title1{
     color: white;
+    font-size: 5rem;
+    animation: title 2s linear;
+    background-color: rgb(128, 168, 128);
+    animation-delay: 1s;
+    
+}
+
+@keyframes title {
+    10% {
+        font-size: 10%;
+        background-color: rgb(128, 168, 128);
+        color: white;
+    }
+    
+    100% {
+        font-size: 100%;
+        
+    }
 }
 
 .container {
@@ -23,9 +54,31 @@ h1{
 }
 
 #btn-fetch {
-    width: 20%;
+    font-size: 15px;
+    border-radius: 5px;
 }
 
 #btn-pegar {
-    width: 20%;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#parabens {
+    font-size: 10rem;
+    animation: parabens 2s infinite;
+}
+
+@keyframes parabens {
+    
+    from {
+        color: white;
+    }
+
+    to {
+        color: rgb(246, 246, 9);
+    }
+}
+
+button {
+    cursor: pointer;
 }
