@@ -42,17 +42,17 @@ botao.addEventListener('click', (e) => {
         
         if(c1 == null) {
             const carta1 = document.querySelector('#carta1');
-            carta1.innerHTML = `<p style="width: 5%">${carta.innerHTML}</p>`;
+            carta1.innerHTML = `<p style="width: 5%">${carta.innerHTML}</p>`
             console.log('c1'+carta1.innerHTML);
             c1 = carta1.innerHTML;
             const audio = new Audio('flipcard-91468.mp3');
             audio.play();
-            window.location.href = '#carta1';
+            window.location.href = '#carta1'
 
         } else if (c1 != null && c2 == null)  {
 
             const carta2 = document.querySelector('#carta2');
-            carta2.innerHTML = `<p style="width: 5%">${carta.innerHTML}</p>`;
+            carta2.innerHTML = `<p style="width: 5%">${carta.innerHTML}</p>`
             console.log('c2'+carta2.innerHTML);
             c2 = carta2.innerHTML;
             const audio = new Audio('flipcard-91468.mp3');
@@ -72,7 +72,7 @@ botao.addEventListener('click', (e) => {
             song.play();
 
             const msgm = document.querySelector('#msgm');
-            msgm.innerHTML =  '<p id="parabens"> PARABÉNS!!! </p>'
+            msgm.innerHTML =  '<p id="parabens"> PARABÉNS!!! </p>  <img src="https://img1.picmix.com/output/stamp/normal/5/5/7/8/1098755_1a3d8.gif">'
             window.location.href = '#parabens';
 
 

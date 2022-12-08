@@ -66,6 +66,7 @@ h1{
 #parabens {
     font-size: 25px;
     animation: parabens 2s infinite;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @keyframes parabens {
