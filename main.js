@@ -31,7 +31,7 @@ botao.addEventListener('click', (e) => {
 
     const audio = new Audio('ES_Pen Click In - SFX Producer.mp3');
     audio.play();
-    window.location.href = '#carta';
+    window.location.href = '#botao-pegar';
     
 })
     var c1 = null;
