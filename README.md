@@ -2,7 +2,7 @@
 
 ### Funcionalidades
 
-- [ ] SELECIONAR MODALIDADE <br>
+- [X] SELECIONAR MODALIDADE <br>
 - [ ] DEFINIR REGRAS <br>
 - [ ] CRIAR ESPAÇO DAS CARTAS DA MÃO <br> 
 - [ ] MELHORAR ESTILIZAÇÃO <br>
