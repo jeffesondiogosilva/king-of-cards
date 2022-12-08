@@ -31,7 +31,7 @@ botao.addEventListener('click', (e) => {
 
     const audio = new Audio('ES_Pen Click In - SFX Producer.mp3');
     audio.play();
-    window.location.href = '#botao-pegar';
+    window.location.href = '#btn-fetch';
     
 })
     var c1 = null;
@@ -45,7 +45,7 @@ botao.addEventListener('click', (e) => {
             carta1.innerHTML = `<p style="width: 5%">${carta.innerHTML}</p>`
             console.log('c1'+carta1.innerHTML);
             c1 = carta1.innerHTML;
-            const audio = new Audio('flipcard-91468.mp3');
+            const audio = new Audio('interface-124464.mp3');
             audio.play();
             window.location.href = '#carta1'
 
@@ -55,7 +55,7 @@ botao.addEventListener('click', (e) => {
             carta2.innerHTML = `<p style="width: 5%">${carta.innerHTML}</p>`
             console.log('c2'+carta2.innerHTML);
             c2 = carta2.innerHTML;
-            const audio = new Audio('flipcard-91468.mp3');
+            const audio = new Audio('interface-124464.mp3');
             audio.play();
             window.location.href = '#carta2';
 
@@ -66,7 +66,7 @@ botao.addEventListener('click', (e) => {
             carta3.innerHTML = `<div style="width: 5%">${carta.innerHTML}</div>`;
             console.log('c3'+carta3.innerHTML);
             c3 = carta3.innerHTML;
-            const audio = new Audio('flipcard-91468.mp3');
+            const audio = new Audio('interface-124464.mp3');
             audio.play();
             const song = new Audio('idea-34284.mp3');
             song.play();
