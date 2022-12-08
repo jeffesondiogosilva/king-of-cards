@@ -23,7 +23,7 @@ botao.addEventListener('click', (e) => {
 
     fetch(`https://deckofcardsapi.com/api/deck/new/draw/?count=2`, options)
     .then(response => {response.json()
-        .then( data => carta.innerHTML = `<img  src="${data.cards[0].image}">; `)
+        .then( data => carta.innerHTML = `<img id="carta" src="${data.cards[0].image}">; `)
             
             
     })
@@ -31,7 +31,7 @@ botao.addEventListener('click', (e) => {
 
     const audio = new Audio('ES_Pen Click In - SFX Producer.mp3');
     audio.play();
-    window.location.href = '#carta1';
+    window.location.href = '#carta';
     
 })
     var c1 = null;
