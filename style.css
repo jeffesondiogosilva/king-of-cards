@@ -53,6 +53,10 @@ body {
     }
 }
 
+#desc{
+    color: white;
+}
+
 .container {
     text-align: center;
     
