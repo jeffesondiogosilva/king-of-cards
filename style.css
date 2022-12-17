@@ -119,11 +119,9 @@ button {
 
 @media (max-width: 768px) {
     #carta{
-        width: 15%;
+        width: 25%;
     }
 }
 
-/* #carta {
-    width: 25%;
-} */
+
 

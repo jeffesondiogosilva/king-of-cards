@@ -42,7 +42,7 @@ botao.addEventListener('click', (e) => {
         
         if(c1 == null) {
             const carta1 = document.querySelector('#carta1');
-            carta1.innerHTML = `<p class="mao" style="width: 5%">${carta.innerHTML}</p>`
+            carta1.innerHTML = `<p class="mao";>${carta.innerHTML}</p>`
             console.log('c1'+carta1.innerHTML);
             c1 = carta1.innerHTML;
             const audio = new Audio('interface-124464.mp3');
@@ -52,7 +52,7 @@ botao.addEventListener('click', (e) => {
         } else if (c1 != null && c2 == null)  {
 
             const carta2 = document.querySelector('#carta2');
-            carta2.innerHTML = `<p class="mao" style="width: 5%;">${carta.innerHTML}</p>`
+            carta2.innerHTML = `<p class="mao" ;>${carta.innerHTML}</p>`
             console.log('c2'+carta2.innerHTML);
             c2 = carta2.innerHTML;
             const audio = new Audio('interface-124464.mp3');
@@ -63,7 +63,7 @@ botao.addEventListener('click', (e) => {
         } else if (c2 != null && c3 == null)  {
 
             const carta3 = document.querySelector('#carta3');
-            carta3.innerHTML = `<p class="mao" style="width: 5%">${carta.innerHTML}</p>`;
+            carta3.innerHTML = `<p class="mao";>${carta.innerHTML}</p>`;
             console.log('c3'+carta3.innerHTML);
             c3 = carta3.innerHTML;
             const audio = new Audio('interface-124464.mp3');
