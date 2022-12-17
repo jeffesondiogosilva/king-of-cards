@@ -56,6 +56,10 @@ body {
     }
 }
 
+#mao {
+    display: flex;
+}
+
 #desc{
     color: white;
 }
