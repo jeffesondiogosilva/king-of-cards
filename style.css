@@ -58,6 +58,11 @@ body {
 
 #mao {
     display: flex;
+
+}
+
+.mao {
+    width: 20%;
 }
 
 #desc{
@@ -111,3 +116,4 @@ h1{
 button {
     cursor: pointer;
 }
+
