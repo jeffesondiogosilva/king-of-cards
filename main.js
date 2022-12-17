@@ -23,7 +23,7 @@ botao.addEventListener('click', (e) => {
 
     fetch(`https://deckofcardsapi.com/api/deck/new/draw/?count=2`, options)
     .then(response => {response.json()
-        .then( data => carta.innerHTML = `<img id="carta" src="${data.cards[0].image}">; `)
+        .then( data => carta.innerHTML = `<img id="carta" src="${data.cards[0].image}"> `)
             
             
     })
@@ -42,7 +42,7 @@ botao.addEventListener('click', (e) => {
         
         if(c1 == null) {
             const carta1 = document.querySelector('#carta1');
-            carta1.innerHTML = `<p class="mao";>${carta.innerHTML}</p>`
+            carta1.innerHTML = `<p class="mao">${carta.innerHTML}</p>`
             console.log('c1'+carta1.innerHTML);
             c1 = carta1.innerHTML;
             const audio = new Audio('interface-124464.mp3');
@@ -63,7 +63,7 @@ botao.addEventListener('click', (e) => {
         } else if (c2 != null && c3 == null)  {
 
             const carta3 = document.querySelector('#carta3');
-            carta3.innerHTML = `<p class="mao";>${carta.innerHTML}</p>`;
+            carta3.innerHTML = `<p class="mao";>${carta.innerHTML}</p>`
             console.log('c3'+carta3.innerHTML);
             c3 = carta3.innerHTML;
             const audio = new Audio('interface-124464.mp3');
