@@ -2,12 +2,15 @@
 
 
 body {
-    background-color: rgb(11, 109, 11);
+    background-color: #269826;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 140%;  
     font-family: 'Lato', sans-serif; 
+    
+    
 }
+
 
 #emb-header {
     margin-top: 1px;
