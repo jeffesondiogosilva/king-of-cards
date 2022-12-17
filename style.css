@@ -56,8 +56,14 @@ body {
     }
 }
 
+#desc{
+    font-size: 0.9rem;
+}
+
 #mao {
     display: flex;
+    margin: 0;
+    justify-content: center;
 
 }
 
