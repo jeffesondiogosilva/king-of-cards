@@ -132,6 +132,11 @@ button {
     to {font-size: 3rem}
 }
 
+@keyframes carta_surgindo1 {
+    from {width:2rem}
+    to {width:5rem}
+}
+
 @media (max-width: 768px) {
     #title1{
         font-size: 3rem;
@@ -139,7 +144,8 @@ button {
     }
 
     #carta{
-        width: 4rem;
+        animation: carta_surgindo1 2s;
+        width: 5rem;
     }
 }
 
