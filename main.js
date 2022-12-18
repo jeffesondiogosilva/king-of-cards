@@ -78,6 +78,22 @@ botao.addEventListener('click', (e) => {
 
         }
     }
+
+    function parar_dado(){
+        
+        const numeros = [1,2,3,4,5,6];
+        const numero = Math.floor(Math.random() * numeros.length + 1);
+        
+        let res_dado = document.getElementById('res-dado');
+        res_dado.value = numero;
+        console.log(numero);
+
+    }
+
+    const btn_dado = document.getElementById('btn-dado');
+    btn_dado.addEventListener('click', parar_dado);
+
+    
     
 
 
