@@ -39,21 +39,15 @@ body {
     animation-delay: 1s;
     border-radius: 10px;
     margin-top: 1px;
-    
+    animation: title 3s;
     
 }
 
 @keyframes title {
-    from {
-        
-        
-        color: white;
-    }
     
-    to {
-        color: rgb(244, 233, 22);
-        
-    }
+    from {font-size: 2rem; }        
+    
+    to {font-size: 5rem; }
 }
 
 #desc{
