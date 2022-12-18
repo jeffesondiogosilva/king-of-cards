@@ -127,9 +127,15 @@ button {
     cursor: pointer;
 }
 
+@keyframes title1r {
+    from {font-size: 1rem; }
+    to {font-size: 3rem}
+}
+
 @media (max-width: 768px) {
     #title1{
-        font-size: 2rem;
+        font-size: 3rem;
+        animation: title1r 2s;
     }
 
     #carta{
