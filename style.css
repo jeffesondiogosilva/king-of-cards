@@ -62,7 +62,17 @@ body {
 }
 
 .mao {
-    /* width: 20%; */
+   
+}
+
+@keyframes carta_surgindo {
+    from {width: 2rem ;}
+    to {width: 12rem;}
+}
+
+#carta{
+    animation: carta_surgindo 2s ;
+    width: 12rem;
 }
 
 #desc{
