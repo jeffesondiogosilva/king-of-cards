@@ -88,6 +88,9 @@ botao.addEventListener('click', (e) => {
         res_dado.value = numero;
         console.log(numero);
 
+        const audio = new Audio('dice.mp3');
+        audio.play();
+
     }
 
     const btn_dado = document.getElementById('btn-dado');
