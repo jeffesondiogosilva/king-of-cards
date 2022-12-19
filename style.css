@@ -16,6 +16,7 @@ body {
     margin-top: 1px;
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 
 #icone{
@@ -162,12 +163,18 @@ button {
 #res-dado{
     font-size: 20px;
     border-radius: 5px;
-    width: 2rem;
-    margin-left: 47.5rem;
+    width: 3rem;
+    margin-left: 48.5%;
     text-align: center;
     font-weight: bold;
     color: red;
     background-color: #fff;
+}
+
+#content-dado{
+    justify-content: center;
+    text-align: center;
+    align-items: right;
 }
 
 
