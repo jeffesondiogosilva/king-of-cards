@@ -85,7 +85,7 @@ botao.addEventListener('click', (e) => {
         const numero = Math.floor(Math.random() * numeros.length + 1);
         
         let res_dado = document.getElementById('res-dado');
-        res_dado.value = numero;
+        res_dado.innerHTML = numero;
         console.log(numero);
 
         const audio = new Audio('dice.mp3');

@@ -15,6 +15,7 @@ body {
 #emb-header {
     margin-top: 1px;
     text-align: center;
+    align-items: center;
 }
 
 #icone{
@@ -159,12 +160,14 @@ button {
 }
 
 #res-dado{
-    font-size: 15px;
+    font-size: 20px;
     border-radius: 5px;
-    width: 5rem;
+    width: 2rem;
+    margin-left: 47.5rem;
     text-align: center;
     font-weight: bold;
     color: red;
+    background-color: #fff;
 }
 
 
