@@ -2,7 +2,7 @@
 
 
 ### Descrição
-#### King of Cards é um jogo em que o objetivo é formar uma combinação de 3 cartas que pode ser de uma sequência do mesmo naipe ou a mesma carta com naipes diferentes. Caso o game seja jogado em grupo, o primeiro a fazer uma combinação será o vencedor.
+#### King of Cards é um jogo em que o objetivo é formar uma combinação de 3 cartas que pode ser de uma sequência do mesmo naipe ou a mesma carta com naipes diferentes. Caso o game seja jogado em grupo, o primeiro a fazer uma combinação será o vencedor. Em caso de jogar em grupo, cada participante deverá parar o dado e o número que aparecer será a quantidade de cartas que o mesmo poderá pedir na rodada.
 
 ### Funcionalidades
 
