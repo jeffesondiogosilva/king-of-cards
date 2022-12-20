@@ -39,7 +39,7 @@ botao.addEventListener('click', (e) => {
     var c3 = null;
 
     function pegar_carta(){
-        
+        console.log('pegou');
         if(c1 == null) {
             const carta1 = document.querySelector('#carta1');
             carta1.innerHTML = `<p class="mao">${carta.innerHTML}</p>`
@@ -78,6 +78,7 @@ botao.addEventListener('click', (e) => {
 
         }
     }
+    
 
     function parar_dado(){
         
