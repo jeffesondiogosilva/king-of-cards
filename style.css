@@ -146,7 +146,7 @@ button {
     }
 
     #carta{
-        animation: carta_surgindo1 2s;
+        animation: carta_surgindo1 1.8s;
         width: 5rem;
     }
 }
