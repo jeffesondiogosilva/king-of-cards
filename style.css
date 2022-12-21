@@ -142,7 +142,7 @@ button {
 @media (max-width: 768px) {
     #title1{
         font-size: 3rem;
-        animation: title1r 2s;
+        animation: title1r 4s;
     }
 
     #carta{
