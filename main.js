@@ -7,14 +7,38 @@ function tocar_musica() {
 }
 
 
+function parar_dado(){
+        
+    const numeros = [1,2,3,4,5,6];
+    const numero = Math.floor(Math.random() * numeros.length + 1);
+    
+    let res_dado = document.getElementById('res-dado');
+    res_dado.innerHTML = numero;
+    
+
+    const audio = new Audio('dice.mp3');
+    audio.play();
+
+}
+
+const btn_dado = document.getElementById('btn-dado');
+btn_dado.addEventListener('click', parar_dado);
+
+
 
 
 
 
 const botao = document.querySelector('#btn-fetch');
 const carta = document.querySelector('#content');
+let pedidos = 0;
 
 botao.addEventListener('click', (e) => {
+    // console.log(pedidos++)
+    pedidos++;
+    if(pedidos == document.getElementById('res-dado').innerHTML){
+        document.getElementById('res-dado').innerHTML = 'Passou a vez'
+    }
     const options = {
         method: 'GET',
         mode: 'cors',
@@ -80,22 +104,6 @@ botao.addEventListener('click', (e) => {
     }
     
 
-    function parar_dado(){
-        
-        const numeros = [1,2,3,4,5,6];
-        const numero = Math.floor(Math.random() * numeros.length + 1);
-        
-        let res_dado = document.getElementById('res-dado');
-        res_dado.innerHTML = numero;
-        console.log(numero);
-
-        const audio = new Audio('dice.mp3');
-        audio.play();
-
-    }
-
-    const btn_dado = document.getElementById('btn-dado');
-    btn_dado.addEventListener('click', parar_dado);
 
     
     
