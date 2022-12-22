@@ -149,6 +149,10 @@ button {
         animation: carta_surgindo1 1.8s;
         width: 5rem;
     }
+
+    #res-dado{
+        margin-left: 50%;
+    }
 }
 
 #dado{
@@ -176,6 +180,7 @@ button {
     text-align: center;
     align-items: right;
 }
+
 
 
 
